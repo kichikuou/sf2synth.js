@@ -403,7 +403,7 @@ AudioPannerNode.prototype.INVERSE_DISTANCE = 1;
  */
 AudioPannerNode.prototype.EXPONENTIAL_DISTANCE = 2;
 
-/** @type {number} */
+/** @type {string} */
 AudioPannerNode.prototype.panningModel;
 
 /**
@@ -582,55 +582,7 @@ DynamicsCompressorNode.prototype.release;
  */
 var BiquadFilterNode = function() {};
 
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.LOWPASS = 0;
-
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.HIGHPASS = 1;
-
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.BANDPASS = 2;
-
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.LOWSHELF = 3;
-
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.HIGHSHELF = 4;
-
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.PEAKING = 5;
-
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.NOTCH = 6;
-
-/**
- * @const
- * @type {number}
- */
-BiquadFilterNode.prototype.ALLPASS = 7;
-
-/** @type {number} */
+/** @type {string} */
 BiquadFilterNode.prototype.type;
 
 /** @type {AudioParam} */
